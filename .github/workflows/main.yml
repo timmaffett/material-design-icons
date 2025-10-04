@@ -10,27 +10,39 @@ jobs:
     strategy:
       fail-fast: false
     steps:
-    # MOVE THIS STEP TO BE THE FIRST ONE
-    - name: Aggressively free disk space
+    - name: Aggressive Disk Space Cleanup 🧹
       run: |
-        # Clear out swap space
+        # 1. Clear out swap space and caches (already doing, but keep them)
         sudo swapoff -a
         sudo rm -f /swapfile
-        
-        # Clear out apt cache
         sudo apt clean
         sudo apt autoremove --purge -y
         
-        # Aggressively remove unused docker images, volumes, networks, and containers
+        # 2. Aggressively remove unused Docker components (re-run in case previous was ineffective)
         docker system prune --all --force --volumes
         
-        # Remove cached files and directories from previous runs that might be left over
+        # 3. Use 'rm -rf' on known large, pre-installed tool directories (The BIG space savers)
+        # Note: Your job only needs Python (which is usually in /usr/bin/python3, not in these folders).
+        
+        echo "Removing .NET SDK (~4 GB)"
         sudo rm -rf /usr/share/dotnet
-        sudo rm -rf /opt/ghc
+        
+        echo "Removing Android SDKs (~9 GB)"
         sudo rm -rf /usr/local/lib/android
         
-        # Check available space after cleanup
+        echo "Removing Haskell GHC (~5 GB)"
+        sudo rm -rf /opt/ghc
+        
+        echo "Removing large hosted tool caches (~8 GB total)"
+        sudo rm -rf /opt/hostedtoolcache
+        
+        echo "Removing Java JDKs (~1 GB)"
+        sudo rm -rf /usr/lib/jvm
+        
+        # 4. Check available space after cleanup to verify effectiveness
+        echo "Disk space after aggressive cleanup:"
         df -h
+    
     - uses: actions/checkout@v3
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -49,3 +61,5 @@ jobs:
         git add .
         git diff --staged --quiet || git -c user.name='GitHub Actions Bot' -c user.email='<>' commit -m 'Update Symbols'
         git push origin master
+		
+		
