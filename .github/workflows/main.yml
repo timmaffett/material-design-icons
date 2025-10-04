@@ -56,10 +56,8 @@ jobs:
       working-directory: ./update
       run: |
         python update_symbols.py
-    - name: commit
+    - name: commit		
       run: |
         git add .
         git diff --staged --quiet || git -c user.name='GitHub Actions Bot' -c user.email='<>' commit -m 'Update Symbols'
         git push origin master
-		
-		
