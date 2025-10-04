@@ -12,17 +12,19 @@ jobs:
     steps:
     - name: Aggressive Disk Space Cleanup 🧹
       run: |
-        # 1. Clear out swap space and caches (already doing, but keep them)
+        # 0. Check available space before cleanup
+        echo "Disk space before cleanup:"
+        df -h
+            
+        # 1. Clear out swap space
         sudo swapoff -a
         sudo rm -f /swapfile
-        sudo apt clean
-        sudo apt autoremove --purge -y
         
         # 2. Aggressively remove unused Docker components (re-run in case previous was ineffective)
         docker system prune --all --force --volumes
         
         # 3. Use 'rm -rf' on known large, pre-installed tool directories (The BIG space savers)
-        # Note: Your job only needs Python (which is usually in /usr/bin/python3, not in these folders).
+        # Note: We only needs Python (which is usually in /usr/bin/python3, not in these folders).
         
         echo "Removing .NET SDK (~4 GB)"
         sudo rm -rf /usr/share/dotnet
