@@ -16,15 +16,15 @@ jobs:
         echo "Disk space before cleanup:"
         df -h
             
-        # 1. Clear out swap space
+        # 1. Clear out swap space.
         sudo swapoff -a
         sudo rm -f /swapfile
         
-        # 2. Aggressively remove unused Docker components (re-run in case previous was ineffective)
+        # 2. Aggressively remove unused Docker components (re-run in case previous was ineffective).
         docker system prune --all --force --volumes
         
-        # 3. Use 'rm -rf' on known large, pre-installed tool directories (The BIG space savers)
-        # Note: We only needs Python (which is usually in /usr/bin/python3, not in these folders).
+        # 3. Use 'rm -rf' on known large, pre-installed tool directories (The BIG space savers).
+        # Note: We only needs Python.
         
         echo "Removing .NET SDK (~4 GB)"
         sudo rm -rf /usr/share/dotnet
