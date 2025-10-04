@@ -10,12 +10,26 @@ jobs:
     strategy:
       fail-fast: false
     steps:
-    - name: free disk space
+    # MOVE THIS STEP TO BE THE FIRST ONE
+    - name: Aggressively free disk space
       run: |
+        # Clear out swap space
         sudo swapoff -a
         sudo rm -f /swapfile
+        
+        # Clear out apt cache
         sudo apt clean
-        docker image prune -a -f
+        sudo apt autoremove --purge -y
+        
+        # Aggressively remove unused docker images, volumes, networks, and containers
+        docker system prune --all --force --volumes
+        
+        # Remove cached files and directories from previous runs that might be left over
+        sudo rm -rf /usr/share/dotnet
+        sudo rm -rf /opt/ghc
+        sudo rm -rf /usr/local/lib/android
+        
+        # Check available space after cleanup
         df -h
     - uses: actions/checkout@v3
     - name: Set up Python
