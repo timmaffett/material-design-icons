@@ -553,6 +553,7 @@ bookmark_flag f456
 bookmark_heart f455
 bookmark_manager f7b1
 bookmark_remove e59a
+bookmark_stacks eee8
 bookmark_star f454
 bookmarks e98b
 books_movies_and_music ef82
@@ -1757,6 +1758,7 @@ hearing_aid_disabled f3b0
 hearing_aid_disabled_left f2ec
 hearing_aid_left f2ed
 hearing_disabled f104
+heart_arrow eee7
 heart_broken eac2
 heart_check f60a
 heart_minus f883
@@ -2308,6 +2310,7 @@ mobile_text f2eb
 mobile_text_2 f2e6
 mobile_theft f2a9
 mobile_ticket f2e4
+mobile_unlock eeea
 mobile_vibrate f2cb
 mobile_wrench f2b0
 mobiledata_off f034
@@ -3982,6 +3985,7 @@ watch_arrow f2ca
 watch_button_press f6aa
 watch_check f468
 watch_later efd6
+watch_lock eee9
 watch_off eae3
 watch_screentime f6ae
 watch_vibration f467
