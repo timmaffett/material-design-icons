@@ -784,6 +784,7 @@ chess_rook f25b
 chevron_backward f46b
 chevron_forward f46a
 chevron_left e5cb
+chevron_line_up eec3
 chevron_right e5cc
 child_care eb41
 child_friendly eb42
@@ -2657,6 +2658,7 @@ partner_heart ef2e
 partner_reports efaf
 party_mode e7fa
 passkey f87f
+passport eec4
 password f042
 password_2 f4a9
 password_2_off f4a8
