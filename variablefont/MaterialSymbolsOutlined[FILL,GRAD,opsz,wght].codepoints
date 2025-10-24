@@ -1054,7 +1054,6 @@ desktop_windows e30c
 destruction f585
 details e3c8
 detection_and_zone e29f
-detection_and_zone_off eebf
 detector e282
 detector_alarm e1f7
 detector_battery e204
@@ -1641,10 +1640,6 @@ game_button_r1 eeda
 game_button_r2 eed9
 game_button_zl eed8
 game_button_zr eed7
-game_stick_l3 eed6
-game_stick_left eed5
-game_stick_r3 eed4
-game_stick_right eed3
 game_trigger_left eed2
 game_trigger_right eed1
 gamepad e30f
@@ -2584,8 +2579,6 @@ note_stack f562
 note_stack_add f563
 notes e26c
 notification_add e399
-notification_audio eec1
-notification_audio_off eec0
 notification_important e004
 notification_multiple e6c2
 notification_settings f367
@@ -3518,7 +3511,6 @@ steps f6da
 stethoscope f805
 stethoscope_arrow f807
 stethoscope_check f806
-sticker_add eec2
 sticky_note e9e8
 sticky_note_2 f1fc
 stock_media f570
