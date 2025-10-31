@@ -881,6 +881,7 @@ compress e94d
 computer e31e
 computer_arrow_up f2f7
 computer_cancel f2f6
+computer_sound eeb4
 concierge f561
 conditions e0a0
 confirmation_number e638
@@ -1054,6 +1055,7 @@ desktop_windows e30c
 destruction f585
 details e3c8
 detection_and_zone e29f
+detection_and_zone_off eebf
 detector e282
 detector_alarm e1f7
 detector_battery e204
@@ -1351,6 +1353,7 @@ exposure_zero e3cf
 extension e87b
 extension_off e4f5
 eye_tracking f4c9
+eyebrow eeb3
 eyeglasses f6ee
 eyeglasses_2 f2c7
 eyeglasses_2_sound f265
@@ -1640,6 +1643,10 @@ game_button_r1 eeda
 game_button_r2 eed9
 game_button_zl eed8
 game_button_zr eed7
+game_stick_l3 eed6
+game_stick_left eed5
+game_stick_r3 eed4
+game_stick_right eed3
 game_trigger_left eed2
 game_trigger_right eed1
 gamepad e30f
@@ -1783,7 +1790,6 @@ hearing_aid_disabled f3b0
 hearing_aid_disabled_left f2ec
 hearing_aid_left f2ed
 hearing_disabled f104
-heart_arrow eee7
 heart_broken eac2
 heart_check f60a
 heart_minus f883
@@ -2100,6 +2106,7 @@ link e250
 link_off e16f
 linked_camera e438
 linked_services f535
+lips eeb2
 liquor ea60
 list e896
 list_alt e0ee
@@ -2267,6 +2274,7 @@ mic_alert f392
 mic_double f5d1
 mic_external_off ef59
 mic_external_on ef5a
+mic_gear eeba
 mic_none e31d
 mic_off e02b
 microbiology e10c
@@ -2579,6 +2587,8 @@ note_stack f562
 note_stack_add f563
 notes e26c
 notification_add e399
+notification_audio eec1
+notification_audio_off eec0
 notification_important e004
 notification_multiple e6c2
 notification_settings f367
@@ -2747,6 +2757,7 @@ person_raised_hand f59a
 person_remove ef66
 person_search f106
 person_shield e384
+person_text eebd
 personal_bag eb0e
 personal_bag_off eb0f
 personal_bag_question eb10
@@ -3511,6 +3522,8 @@ steps f6da
 stethoscope f805
 stethoscope_arrow f807
 stethoscope_check f806
+sticker e707
+sticker_add eec2
 sticky_note e9e8
 sticky_note_2 f1fc
 stock_media f570
@@ -3868,6 +3881,7 @@ ulna_radius f89d
 ulna_radius_alt f89e
 umbrella f1ad
 unarchive e169
+undereye eeb1
 undo e166
 unfold_less e5d6
 unfold_less_double f8cf
@@ -3974,6 +3988,7 @@ vital_signs e650
 vitals e13b
 vo2_max f4aa
 voice_chat e62e
+voice_chat_off eebe
 voice_over_off e94a
 voice_selection f58a
 voice_selection_off f42c
@@ -4063,6 +4078,7 @@ whatshot e80e
 wheelchair_pickup f1ab
 where_to_vote e177
 widget_medium f3ba
+widget_menu eeb7
 widget_small f3b9
 widget_width f3b8
 widgets e1bd
