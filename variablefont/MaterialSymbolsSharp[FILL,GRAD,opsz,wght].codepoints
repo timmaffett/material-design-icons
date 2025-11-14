@@ -1563,6 +1563,12 @@ format_h3 f85f
 format_h4 f860
 format_h5 f861
 format_h6 f862
+format_image_back eeb0
+format_image_break_left eeaf
+format_image_break_right eeae
+format_image_front eead
+format_image_inline_left eeac
+format_image_inline_right ffffd
 format_image_left f863
 format_image_right f864
 format_indent_decrease e23d
@@ -1861,6 +1867,7 @@ hourglass ebff
 hourglass_arrow_down f37e
 hourglass_arrow_up f37d
 hourglass_bottom ea5c
+hourglass_check fffed
 hourglass_disabled ef53
 hourglass_empty e88b
 hourglass_full e88c
@@ -3718,6 +3725,7 @@ theater_comedy ea66
 theaters e8da
 thermometer e846
 thermometer_add f582
+thermometer_alert ffffb
 thermometer_gain f6d8
 thermometer_loss f6d7
 thermometer_minus f581
