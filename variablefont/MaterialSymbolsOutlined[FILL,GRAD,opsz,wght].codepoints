@@ -713,6 +713,7 @@ card_travel e8f8
 cardio_load f4b9
 cardiology e09c
 cards e991
+cards_stack f38f
 cards_star f375
 carpenter f1f8
 carry_on_bag eb08
@@ -1719,6 +1720,7 @@ graph_4 f39d
 graph_5 f39c
 graph_6 f39b
 graph_7 f346
+graph_8 fffec
 graphic_eq e1b8
 grass f205
 grid_3x3 f015
