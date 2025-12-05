@@ -994,6 +994,8 @@ dangerous e99a
 dark_mode e51c
 dashboard e871
 dashboard_2 f3ea
+dashboard_2_edit fffd7
+dashboard_2_gear fffd6
 dashboard_customize e99b
 data_alert f7f6
 data_array ead1
@@ -2451,6 +2453,7 @@ museum ea36
 music_cast eb1a
 music_history f2c1
 music_note e405
+music_note_2 fffd8
 music_note_add f391
 music_off e440
 music_video e063
