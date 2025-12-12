@@ -238,6 +238,7 @@ android_wifi_4_bar_question ef11
 animated_images f49a
 animation e71c
 announcement e87f
+antigravity fffd2
 aod f2e6
 aod_tablet f89f
 aod_watch f6ac
@@ -3960,6 +3961,7 @@ video_library e04a
 video_search efc6
 video_settings ea75
 video_stable f081
+video_template fffd3
 videocam e04b
 videocam_alert f390
 videocam_off e04c
