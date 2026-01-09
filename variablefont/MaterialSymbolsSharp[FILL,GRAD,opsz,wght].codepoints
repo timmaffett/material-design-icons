@@ -752,6 +752,7 @@ chat e0c9
 chat_add_on f0f3
 chat_apps_script f0bd
 chat_bubble e0cb
+chat_bubble_off fffbb
 chat_bubble_outline e0cb
 chat_dashed eeed
 chat_error f7ac
@@ -1473,6 +1474,7 @@ fit_page_height f397
 fit_page_width f396
 fit_screen ea10
 fit_width f779
+fitbit_raquetball fffc5
 fitness_center eb43
 fitness_tracker f463
 fitness_trackers eef1
@@ -2367,6 +2369,7 @@ mode_dual f557
 mode_edit f097
 mode_edit_outline f097
 mode_fan f168
+mode_fan_2 fffd0
 mode_fan_off ec17
 mode_heat f16a
 mode_heat_cool f16b
@@ -3453,6 +3456,7 @@ splitscreen f06d
 splitscreen_add f4fd
 splitscreen_bottom f676
 splitscreen_landscape f459
+splitscreen_landscape_add fffba
 splitscreen_left f675
 splitscreen_portrait f458
 splitscreen_right f674
@@ -4040,7 +4044,9 @@ warning_off f7ad
 wash f1b1
 washoku f280
 watch e334
+watch_alert fffd1
 watch_arrow f2ca
+watch_arrow_down fffcf
 watch_button_press f6aa
 watch_check f468
 watch_later efd6
