@@ -1695,6 +1695,8 @@ girl eb68
 gite e58b
 glass_cup f6e3
 globe e64c
+globe_2_cancel fffb7
+globe_2_question fffb6
 globe_asia f799
 globe_book f3c9
 globe_location_pin f35d
@@ -2117,6 +2119,7 @@ line_style e919
 line_weight e91a
 linear_scale e260
 link e250
+link_2 fffb5
 link_off e16f
 linked_camera e438
 linked_services f535
@@ -2396,6 +2399,7 @@ monochrome_photos e403
 monorail f473
 mood ea22
 mood_bad e7f3
+mood_heart fffb4
 moon_stars f34f
 mop e28d
 moped eb28
