@@ -388,6 +388,7 @@ av_timer e01b
 avc f4af
 avg_pace f6bb
 avg_time f813
+avocado_bean fffa7
 award_meal f241
 award_star f612
 azm f6ec
@@ -628,6 +629,7 @@ build_circle ef48
 bungalow e591
 burst_mode e43c
 bus_alert e98f
+bus_map_pin fffa2
 bus_railway f36b
 business e7ee
 business_center eb3f
@@ -2363,6 +2365,7 @@ mobile_ticket f2e4
 mobile_unlock eeea
 mobile_vibrate f2cb
 mobile_wrench f2b0
+mobiledata_arrows fffa3
 mobiledata_off f034
 mode f097
 mode_comment e253
@@ -4101,6 +4104,7 @@ weekend e16b
 weight e13d
 west f1e6
 whatshot e80e
+wheat fffa4
 wheelchair_pickup f1ab
 where_to_vote e177
 widget_medium f3ba
