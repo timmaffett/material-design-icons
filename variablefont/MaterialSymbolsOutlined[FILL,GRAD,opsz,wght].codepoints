@@ -1867,6 +1867,9 @@ home_repair_service f100
 home_speaker f11c
 home_storage f86c
 home_work f030
+horizontal_align_center fff9c
+horizontal_align_left fff9b
+horizontal_align_right fff9a
 horizontal_distribute e014
 horizontal_rule f108
 horizontal_split e947
@@ -2797,6 +2800,7 @@ phone_alt f0d4
 phone_android f2db
 phone_bluetooth_speaker e61b
 phone_callback e649
+phone_cancel fff9d
 phone_disabled e9cc
 phone_enabled e9cd
 phone_forwarded e61c
@@ -3067,6 +3071,7 @@ reset_tv e9d9
 reset_white_balance f47c
 reset_wrench f56c
 resize f707
+resize_window fff99
 respiratory_rate e127
 responsive_layout e9da
 rest_area f22a
